@@ -1,0 +1,28 @@
+.selected_currency {
+  width: 250px;
+  height: 35px;
+  background: white;
+  box-shadow: 0 4px 4px -2px #dbdbdb, inset 0 0 0 1px #f1f1f1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.selected_currency_image {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 10px;
+  background-size: cover;
+}
+
+.selected_currency_name {
+  position: relative;
+  left: 20px;
+  color: #333;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+}

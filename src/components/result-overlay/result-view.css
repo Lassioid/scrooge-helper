@@ -1,0 +1,75 @@
+.result-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-dialog {
+    position: absolute;
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    box-shadow: 0px 1px 10px 0px #ccc, inset 0 0 0 1px #eee;
+}
+
+@keyframes fadeIn {
+    from {
+        filter: opacity(30%);
+    }
+    to {
+        filter: opacity(100%);
+    }
+}
+
+.close-button {
+    position: absolute;
+    width: 150px;
+    bottom: 15px;
+    right: 15px;
+    float: right;
+    height: 35px;
+    border-radius: 5px;
+    background: #343434;
+    box-shadow: inset 0 0 0 1px #bbb;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.result-dialog-content {
+    position: relative;
+    width: 450px;
+    min-height: 300px;
+    top: 50px;
+    left: 50%;
+    margin-left: -225px;
+}
+
+.result-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.result-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    margin-top: 40px;
+}
