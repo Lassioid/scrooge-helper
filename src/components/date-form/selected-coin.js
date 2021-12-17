@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./selected-coin.css";
 
+
 const SelectedCurrency = ({ currency }) => {
   const backgroundImage = { backgroundImage: `url(${currency.image.small})` };
 

@@ -1,3 +1,4 @@
 [*]
 indent_size = 2
+
 accept_suggestion_on_commit_character = false

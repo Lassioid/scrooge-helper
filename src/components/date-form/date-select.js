@@ -2,6 +2,8 @@ import React from "react";
 import "./date-select.css";
 import { range } from "../../utility/functions";
 
+
+
 const DateOption = ({ value, selectOption }) => (
   <div onClick={() => selectOption(value)} className="form-option">
     {value}

@@ -1,5 +1,7 @@
 export const mapStateToProps = state => ({ ...state });
 
+
+
 export const mapDispatchToProps = dispatch => ({
   onSetCurrencies: currencies => dispatch({
     type: "set_currencies_to_state",

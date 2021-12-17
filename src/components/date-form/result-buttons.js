@@ -1,6 +1,7 @@
 import React from "react";
 import './result-buttons.css';
 
+
 const ResultButtons = ({ isDisabled, getDownTrend, getHighestVolume, getTimeMachineResults }) => (
   <div className="result-buttons">
     <button className="result-button" disabled={isDisabled} onClick={getDownTrend}>

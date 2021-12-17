@@ -4,6 +4,7 @@ import LongestTrend from './longest-trend';
 import HighestVolume from './highest-volume';
 import ProfitMachine from './profit-machine';
 
+
 const ResultView = ({ onToggleResultView, longestTrend, highestVolume, timeMachine }) => {
 
   return (

@@ -1,6 +1,8 @@
 import React from "react";
 import "./coins-list.css";
 
+
+
 const CurrencyItem = ({ currency, onSelectCurrency }) => {  
   const backgroundImage = { backgroundImage: `url(${currency.image.small}` };
 

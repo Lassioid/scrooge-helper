@@ -12,6 +12,7 @@
   box-shadow: 0 4px 4px -2px #dbdbdb, inset 0 0 0 1px #f1f1f1;
 }
 
+
 .currency_list::-webkit-scrollbar {
   width: 12px;
 }

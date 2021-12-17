@@ -5,6 +5,7 @@ import CoinsContainer from "./components/coins-container/coins-container";
 import DateForm from "./components/date-form/date-form";
 import ResultView from "./components/result-overlay/result-view";
 
+
 const App = state => (
   <div className="app">
     <CoinsContainer {...state} />

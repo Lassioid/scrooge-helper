@@ -1,6 +1,7 @@
 import React from 'react';
 import { toDateString } from '../../utility/functions';
 
+
 const LongestTrend = ({ longestTrend }) => {
   const { title } = longestTrend;
   const { id, days, start, end } = longestTrend.data.duration;

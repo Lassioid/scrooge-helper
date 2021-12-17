@@ -1,6 +1,7 @@
 import React from 'react';
 import { toDateString } from '../../utility/functions';
 
+
 const HighestVolume = ({ highestVolume }) => {
   const { title } = highestVolume;
   const { id, day, amount } = highestVolume.data.duration;

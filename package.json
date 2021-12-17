@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot"
+    
   },
   "keywords": [],
   "author": "",

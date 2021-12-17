@@ -3,6 +3,7 @@ import { getCoins, getCoin } from "../../utility/requests";
 import CurrencyList from "../coins-list/coins-list";
 import "./coins-container.css";
 
+
 const CoinsContainer = ({ onSetCurrencies, onSelectCurrency, currencies }) => {
 
   useEffect(() => {

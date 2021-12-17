@@ -1,6 +1,7 @@
 import React from 'react';
 import { toDateString } from '../../utility/functions';
 
+
 const ProfitMachine = ({ timeMachine }) => {
   const { title } = timeMachine;
   const { id, buyDate, sellDate, days } = timeMachine.data.duration;
